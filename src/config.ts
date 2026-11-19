@@ -1,9 +1,9 @@
-import img5776 from '@/assets/IMG_5776.jpeg';
-import memory1 from '@/assets/WhatsApp_Image_2026-11-11_at_22.55.17.jpeg';
-import memory2 from '@/assets/WhatsApp_Image_2026-11-11_at_22.56.33.jpeg';
-import memory3 from '@/assets/WhatsApp_Image_2026-11-11_at_23.29.05.jpeg';
-import video1 from '@/assets/v1.mp4';
-import video2 from '@/assets/v2.mp4';
+import memory1 from '@/assets/m1.jpeg';
+import memory2 from '@/assets/m2.jpeg';
+import memory3 from '@/assets/m3.mp4';
+import memory4 from '@/assets/m4.mp4';
+import memory5 from '@/assets/m5.mp4';
+import memory6 from '@/assets/m6.jpeg';
 
 // ============================================================
 //  YOUR BIRTHDAY WEBSITE — PERSONALIZATION CONFIG
@@ -81,29 +81,30 @@ export const config = {
         rotate: -4,
       },
       {
-        src: video1,
+        src: memory2,
         caption: "Some memories just hit differently.",
         rotate: 3,
+      },
+      {
+        src: memory3,
+        caption: "One for the heart's favorite collection!",
+        rotate: -2,
         media: "video",
       },
       {
-        src: memory2,
-        caption: "One for the heart's favorite collection!",
-        rotate: -2,
-      },
-      {
-        src: img5776,
+        src: memory4,
         caption: "Good times, even better company.",
         rotate: 5,
+        media: "video",
       },
       {
-        src: video2,
+        src: memory5,
         caption: "Laughing till it hurt 💗",
         rotate: -5,
         media: "video",
       },
       {
-        src: memory3,
+        src: memory6,
         caption: "Forever one of my favorites.",
         rotate: 2,
       },
@@ -133,10 +134,10 @@ export const config = {
     message: [
       "Never forget how special you are, Manisha. The world is a little brighter, a little louder, and a lot more beautiful with you in it — and mine has been a little more yours since the day you walked into it.",
       "Keep smiling, keep dreaming, keep being your unapologetically amazing self — and keep making my days better without even lifting a finger. It's honestly a little unfair how effortless you make it look.",
-      "Happy Birthday, Once Again! 💗",
+      "Happy Birthday, Love you always! 💗",
     ],
     button: "Send Me a Smile 😊",
-    popup: "Wish granted… almost! Here's my birthday wish for you, Manishaaa: that gorgeous smile of yours, in person, real soon — so you better start planning our meetup. And since I clearly can't wait that long… one cute selfie. Right now. That's the deal, no negotiations. 🥳💗",
+    popup: "Wish granted… almost! Here's my birthday wish for you, Manishaaa: that gorgeous smile of yours, in person, real soon — so you better start planning our meetup. And since I clearly can't wait that long… one video call. Right now. That's the deal, no negotiations. 🥳💗",
   },
 
   // --- Theme Colors (Tailwind-compatible hex) ---
