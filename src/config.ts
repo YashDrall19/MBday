@@ -20,7 +20,7 @@ export const config = {
     greeting: "Hey, Birthday Girl! 💗",
     heading: "Today, the universe celebrates YOU.",
     subheading:
-      "Some people are felt. Some are remembered. You, Manisha — you're the kind of feeling people spend a lifetime searching for...",
+      "Some people are felt. Some are remembered. You, Manisha — you're the kind of feeling people spend a lifetime searching for... (Lucky me, I found you first.)",
     button: "Open Your Little Surprise ✨",
   },
 
@@ -28,7 +28,7 @@ export const config = {
   hero: {
     heading: "Happiest Birthday, Manishaaa! 🎂",
     subtitle:
-      "To the girl who turned my ordinary days into something worth remembering — the one my heart quietly picked, long before I ever admitted it out loud.",
+      "To the girl who turned my ordinary days into something worth remembering — the one my heart quietly picked, long before I ever admitted it out loud. (And no, you're not getting it back.)",
   },
 
   // --- A Little Message From Me 💌 ---
@@ -48,7 +48,7 @@ export const config = {
       "",
       "Keep smiling, keep shining, keep being your adorable, chaotic self — and please never let that beautiful smile fade. (And yes, I'll keep calling it beautiful every chance I get. No takebacks, no refunds.)",
       "",
-      "Here's to more laughter, more late-night conversations, more moments where you say something completely random and I fall for you a little more every single time.",
+      "Here's to more laughter, more late-night conversations, more moments where you say something completely random and I fall for you a little more every single time. (At this rate, it's getting dangerous. Don't stop though.)",
       "",
       "Stay exactly who you are, Manisha. The world is a little softer, a little brighter, and a lot more beautiful with you in it — and my heart? It's been yours for longer than I've had the courage to say.",
       "",
@@ -60,11 +60,11 @@ export const config = {
   reasons: {
     heading: "Just a few reasons why you're special...",
     cards: [
-      { icon: "Smile", text: "That smile of yours? Absolutely unfair advantage. It's the reason my worst days never stood a chance — and you still use it like it's free." },
+      { icon: "Smile", text: "That smile of yours? Absolutely unfair advantage. It's the reason my worst days never stood a chance — and you still use it like it's free. Rude, honestly. Keep going." },
       { icon: "Sparkles", text: "Your random craziness is honestly iconic. Never a dull moment around you — and I'd happily sign up for a lifetime of it." },
       { icon: "Heart", text: "You have a heart full of kindness hidden under all that chaos. It's a dangerously cute combo — the kind people fall in love with. Ask me how I know." },
       { icon: "Star", text: "You're effortlessly unique. The kind of person who's hard to find, impossible to forget, and quietly impossible to get over." },
-      { icon: "Sun", text: "You make every moment warmer just by being in it. Especially mine. Not even trying to be subtle about it anymore." },
+      { icon: "Sun", text: "You make every moment warmer just by being in it. Especially mine. Not even trying to be subtle about it anymore — you already know." },
       { icon: "Gift", text: "You deserve happiness in unlimited quantities. Refills allowed. No expiry. And if I had my way, I'd spend my life making sure of it." },
       { icon: "Crown", text: "Never underestimate how amazing you are, Manisha. You're the whole package — and yeah, I noticed from day one. Hard not to." },
     ],
@@ -122,7 +122,7 @@ export const config = {
   // --- The Interactive Birthday Cake 🎂 ---
   cake: {
     heading: "Okayyy Manishaaa! Time to make a wish!",
-    hint: "Tap each candle to blow it out… and don't waste your wish on me being less annoying. I'm not going anywhere — my heart's already made its home right here, with you. Sorry.",
+    hint: "Tap each candle to blow it out… and don't waste your wish on me being less annoying. I'm not going anywhere — my heart already picked its favorite person, and she's reading this. Sorry, sweetheart.",
     afterMessage: "May every little wish of yours come true! 💗",
     candleCount: 1,
   },
@@ -136,7 +136,7 @@ export const config = {
       "Happy Birthday, Once Again! 💗",
     ],
     button: "Send Me a Smile 😊",
-    popup: "Mission accomplished! Now go enjoy your special day, Manishaaa! And don't think I forgot — you owe me a cute selfie, right now. 🥳💗",
+    popup: "Wish granted… almost! Here's my birthday wish for you, Manishaaa: that gorgeous smile of yours, in person, real soon — so you better start planning our meetup. And since I clearly can't wait that long… one cute selfie. Right now. That's the deal, no negotiations. 🥳💗",
   },
 
   // --- Theme Colors (Tailwind-compatible hex) ---
