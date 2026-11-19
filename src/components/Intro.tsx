@@ -68,7 +68,7 @@ export default function Intro({ onEnter }: Props) {
               <div className="overflow-hidden rounded-[1.4rem]">
                 <img
                   src="/images/pihu.jpeg"
-                  alt="Pihu, the birthday girl"
+                  alt="Manisha, the birthday girl"
                   className="aspect-[4/5] w-full object-cover object-center"
                 />
               </div>
