@@ -32,7 +32,7 @@ export default function Intro({ onEnter }: Props) {
     <AnimatePresence>
       {!leaving && (
         <motion.div
-          className="fixed inset-0 z-[100] flex items-center justify-center overflow-hidden"
+          className="fixed inset-0 z-[100] overflow-y-auto overscroll-contain"
           initial={{ opacity: 1 }}
           exit={{ opacity: 0, scale: 1.1, filter: 'blur(12px)' }}
           transition={{ duration: 1.2, ease: [0.22, 1, 0.36, 1] }}
@@ -55,7 +55,7 @@ export default function Intro({ onEnter }: Props) {
           <div className="absolute right-[30%] top-[15%] h-60 w-60 rounded-full bg-babyblue/40 blur-3xl" />
 
           <motion.div
-            className="relative z-10 mx-auto flex max-w-4xl flex-col items-center px-6 text-center lg:flex-row lg:gap-12 lg:text-left"
+            className="relative z-10 mx-auto flex min-h-full w-full max-w-4xl flex-col items-center justify-center px-6 py-12 text-center lg:flex-row lg:gap-12 lg:text-left"
             animate={{ y: showBtn ? -24 : 0 }}
             transition={{ duration: 0.8, ease: [0.22, 1, 0.36, 1] }}
           >

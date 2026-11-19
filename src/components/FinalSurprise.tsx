@@ -58,7 +58,7 @@ export default function FinalSurprise() {
       <AnimatePresence>
         {showPopup && (
           <motion.div
-            className="fixed inset-0 z-[95] flex items-center justify-center bg-ink/75 p-6"
+            className="fixed inset-0 z-[95] overflow-y-auto overscroll-contain bg-ink/75 p-6"
             initial={{ opacity: 0 }}
             animate={{ opacity: 1 }}
             exit={{ opacity: 0 }}
@@ -70,7 +70,7 @@ export default function FinalSurprise() {
               animate={{ scale: 1, opacity: 1, y: 0 }}
               exit={{ scale: 0.9, opacity: 0, y: 10 }}
               transition={{ type: 'spring', stiffness: 260, damping: 24 }}
-              className="relative max-w-md rounded-3xl bg-cream p-10 text-center shadow-glow will-change-transform"
+              className="relative my-auto max-w-md rounded-3xl bg-cream p-10 text-center shadow-glow will-change-transform"
               onClick={(e) => e.stopPropagation()}
               onAnimationComplete={() => heartsBurst()}
             >
